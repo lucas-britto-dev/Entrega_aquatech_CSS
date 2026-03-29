@@ -1,0 +1,171 @@
+
+
+.header {
+    width: 100%;
+    background-color: #000407;
+    border-bottom: solid 3px #32b9cd;
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.titulo {
+    color: #32b9cd;
+}
+
+.navbar {
+    display: flex;
+    color: #e2b367;
+    list-style: none;
+    justify-content: space-between;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.navbar li {
+    margin-right: 40px;
+}
+
+
+/*  */
+
+.banner img {
+    width: 100%;
+    z-index: -1;
+}
+
+.container_banner {
+    position: absolute;
+    color: white;
+    top: 30%;
+    left: 36%;
+}
+
+.container_banner p {
+    height: 10px;
+    width: 170px;
+    font-size: 32px;
+}
+
+.container_banner span {
+    font-weight: bold;
+}
+
+.boxes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 100px;
+}
+
+.box img {
+    width: 45%;
+}
+
+.box h4 {
+    color: #fa488a;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.login img {
+    height: 1010px;
+    width: 100%;
+}
+
+.container_login {
+    position: absolute;
+    top: 40%;
+    left: 27%;
+    padding: 20px 100px 20px 100px;
+    background-color: #e5e5e5;
+    border-radius: 16px;
+}
+
+.container_cadastro {
+    position: absolute;
+    top: 25%;
+    left: 27%;
+    padding: 20px 100px 20px 100px;
+    background-color: #e5e5e5;
+    border-radius: 16px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.card h2 {
+    color: #d67092;
+    font-size: 32px;
+}
+
+.card span {
+    color: #d67092;
+    font-weight: bold;
+}
+
+.campo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.input {
+    border: #32b9cd solid 2px;
+    text-align: center;
+    border-radius: 16px;
+    width: 700px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.botao {
+    font-family: "Montserrat";
+    font-weight: bold;
+    font-size: 20px;
+    background-color: #fa488a;
+    border: none;
+    border-radius: 16px;
+    color: white;
+    padding: 10px 40px 10px 40px;
+    margin-top: 20px;
+}
+
+.container-simulador {
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e5e5;
+    align-items: center;
+    text-align: center;
+}
+
+/* Footer */
+.footer {
+    background-color: #32b9cd;
+    height: 100px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
